@@ -1,0 +1,166 @@
+/*HEADER*/
+.header-hero {
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 2px 10px 2px rgb(11, 70, 50, 0.05);
+  background-color: #f5f5f5;
+}
+.header-hero .container {
+  width: 100%;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo p a {
+  font-size: 34px;
+  color: rgb(10, 110, 77);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo span {
+  color: rgb(26, 199, 141);
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(10, 110, 77);
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: rgb(26, 199, 141);
+}
+
+/*MAIN*/
+main {
+  margin: 100px 0;
+}
+
+header {
+  margin: 50px 0;
+}
+
+.text {
+  line-height: 1rem;
+}
+
+.single-bedroom,
+.couple-bedroom,
+.family-bedroom {
+  margin: 50px 0;
+}
+
+.single-bedroom_image ul,
+.couple-bedroom_image ul,
+.family-bedroom_image ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.single-bedroom_image img,
+.couple-bedroom_image img,
+.family-bedroom_image img {
+  width: 320px;
+}
+
+.room-information {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.room-information h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(10, 110, 77);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.room-information table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  background-color: rgb(10, 110, 77);
+}
+
+.contact {
+  margin-bottom: 10px;
+}
+
+.contact div {
+  border-bottom: 1px solid rgb(195, 231, 219, 0.5);
+  padding: 10px 0;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.contact li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact li p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(195, 231, 219);
+  width: 150px;
+}
+
+.contact li img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact li a {
+  width: 100%;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: left;
+}
+
+.li-limited {
+  width: 250px;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #f5f5f5;
+}
